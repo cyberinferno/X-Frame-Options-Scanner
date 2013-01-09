@@ -39,7 +39,7 @@ def subdomain(URL):
 				
 				request = urllib2.Request(subdomain)
 				request.add_header('User-Agent', 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_8_2) AppleWebKit/537.11 (KHTML, like Gecko) Chrome/23.0.1271.101 Safari/537.11')
-				request.add_header('Referer', 'http://kiit.ac.in')
+				request.add_header('Referer', 'http://yahoo.com')
 				response = urllib2.urlopen(request)
 				
 				print response.info().getheader('X-Frame-Options')
