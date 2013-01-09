@@ -13,7 +13,7 @@ def main():
 	print "Subdomain and X-Frame-Options Finder by Aditya Gupta"
 	print "Twitter : @adi1391"
 	print "Report any bugs/improvements to adi0x90 [at] gmail [dot] com"
-  print "Wordlist from "knock" python script : You could add more"
+ 	print "Wordlist from "knock" python script : You could add more"
 	print "-------------------------------------------------------------"
 	subdomain(sys.argv[1])
 
