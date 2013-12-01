@@ -1,15 +1,16 @@
-webscanner
+X-Frame-Options Scanner
 ==========
 
-Finds subdomain for a given website, as well as finds out the X-Frame-Options on that webpage. 
+A small script to find subdomain for a given website, and finds out the X-Frame-Options on that webpage.
+Useful while doing Bug Bounties
 
 Syntaxt : 
 
-adityagupta$ python webscan.py [url]
+adityagupta$ python clickjackscan.py [url]
 
 example:
 
-adityagupta$ python webscan.py google.com
+adityagupta$ python clickjackscan.py google.com
 
 [Tool still in development : More features to be added]
 
