@@ -9,7 +9,7 @@ from urllib2 import Request, urlopen
 
 
 def main():
-  print "------------------------------------------------------------"
+	print "------------------------------------------------------------"
 	print "Subdomain and X-Frame-Options Finder by Aditya Gupta"
 	print "Twitter : @adi1391"
 	print "Report any bugs/improvements to adi0x90 [at] gmail [dot] com"
